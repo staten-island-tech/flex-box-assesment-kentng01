@@ -1,3 +1,18 @@
-body{
-    background-color: rgb(152, 238, 238);
+html{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    box-sizing: border-box;
 }
+
+body{
+    background-color: #FFEB3B;
+
+}
+
+.flex-parent{
+    height: 100vh;
+    background-color: rgb(128, 112, 112);
+    
+}
+
