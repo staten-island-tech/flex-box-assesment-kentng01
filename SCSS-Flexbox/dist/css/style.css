@@ -8,10 +8,46 @@ html {
 
 body {
   background-color: #FFEB3B;
+  color: #4E342E;
 }
 
 .flex-parent {
   height: 100vh;
-  background-color: #807070;
+  background-color: #616161;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  text-align: center;
+}
+
+.flex-child {
+  height: 20vh;
+  background-color: #ECEFF1;
+  margin: 10px;
+  width: 33.3%;
+  font-size: 500%;
+}
+
+#flex-child {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 33.3%;
+  font-size: 500%;
+}
+
+#flex-grow2 {
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
+  width: 33.3%;
+  font-size: 500%;
 }
 /*# sourceMappingURL=style.css.map */
