@@ -11,33 +11,54 @@ body{
 
 }
 
+div.flex-parent {
+    width: 80%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  img {width: 100%}
+  
+  div.flex-child{
+    text-align: center;
+    padding: 10px 20px;
+  }
+
 .flex-parent{
     height: 100vh;
     background-color: #616161;
     display: flex;
     flex-direction: row;
-    text-align: center;
+    text-align: center ;
+    align-items: center;
 }
 
 .flex-child{
-    height: 20vh;
+    height: 40vh;
     background-color: #ECEFF1;
     margin: 10px;
     width: 33.3%;
     font-size: 500%;
+    border-image: fill;
 }
 
 #flex-child{
     flex-grow: 1;
     display: flex;
     width: 33.3%;
-    font-size: 500%;
 }
 
 #flex-grow2{
     flex-grow: 2;
     width: 33.3%;
     font-size: 500%;
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+        width: 105%;
+      }
 }
 
 
