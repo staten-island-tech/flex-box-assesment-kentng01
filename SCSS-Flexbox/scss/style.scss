@@ -29,8 +29,20 @@ div.flex-parent {
     padding: 10px 20px;
   }
 
+  img{
+    border-radius: 8px;
+    height: 35vh;
+    width: 35vh;
+}
+
+.header{
+    text-align: center;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 20vh;
+}
+
 .flex-parent{
-    height: 100vh;
+    height: 98vh;
     background-color: #616161;
     display: flex;
     flex-direction: row;

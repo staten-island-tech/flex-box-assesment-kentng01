@@ -27,8 +27,20 @@ div.flex-child {
   padding: 10px 20px;
 }
 
+img {
+  border-radius: 8px;
+  height: 35vh;
+  width: 35vh;
+}
+
+.header {
+  text-align: center;
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 20vh;
+}
+
 .flex-parent {
-  height: 100vh;
+  height: 98vh;
   background-color: #616161;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -68,13 +80,6 @@ div.flex-child {
       -ms-flex-positive: 2;
           flex-grow: 2;
   width: 33.3%;
-  font-size: 500%;
-}
-
-#flex-grow2 img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 105%;
+  font-size: 100%;
 }
 /*# sourceMappingURL=style.css.map */
