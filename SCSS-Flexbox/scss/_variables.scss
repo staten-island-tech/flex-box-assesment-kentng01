@@ -1,7 +1,6 @@
 $colors: (
-    primary: #000
+    primary: rgb(245, 213, 70)
 );
 @function color($color-name) {
     @return map-get($colors, $color-name);
 }
-$padding

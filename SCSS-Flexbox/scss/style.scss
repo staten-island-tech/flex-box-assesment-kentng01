@@ -42,7 +42,7 @@ div.flex-parent {
 }
 
 .flex-parent{
-    height: 98vh;
+    height: 100vh;
     background-color: #616161;
     display: flex;
     flex-direction: row;
@@ -71,3 +71,12 @@ div.flex-parent {
     font-size: 100%;
 }
 
+.flex-parent2{
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 3rem;
+    margin: 2rem;
+    border: 7px solid #263238;
+}
