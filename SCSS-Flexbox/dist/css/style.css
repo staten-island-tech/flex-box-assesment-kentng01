@@ -30,7 +30,7 @@ div.flex-child {
 img {
   border-radius: 8px;
   height: 35vh;
-  width: 35vh;
+  width: 45vh;
 }
 
 .header {
@@ -84,7 +84,7 @@ img {
 }
 
 .flex-parent2 {
-  background-color: blue;
+  background-color: #FBE9E7;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -98,5 +98,14 @@ img {
   padding: 3rem;
   margin: 2rem;
   border: 7px solid #263238;
+  border-radius: 15px;
+  text-align: center;
+  color: #004D40;
+  font-size: 3rem;
+  font-family: 'Concert One', cursive;
+}
+
+.flex-child2 {
+  color: red;
 }
 /*# sourceMappingURL=style.css.map */

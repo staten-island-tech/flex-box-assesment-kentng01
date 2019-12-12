@@ -32,7 +32,7 @@ div.flex-parent {
   img{
     border-radius: 8px;
     height: 35vh;
-    width: 35vh;
+    width: 45vh;
 }
 
 .header{
@@ -72,11 +72,20 @@ div.flex-parent {
 }
 
 .flex-parent2{
-    background-color: blue;
+    background-color: #FBE9E7;
     display: flex;
     flex-direction: column;
     flex: 1;
     padding: 3rem;
     margin: 2rem;
     border: 7px solid #263238;
+    border-radius: 15px;
+    text-align: center;
+    color: #004D40;
+    font-size: 3rem;
+    font-family: 'Concert One', cursive;
+}
+
+.flex-child2{
+    color: red;
 }
