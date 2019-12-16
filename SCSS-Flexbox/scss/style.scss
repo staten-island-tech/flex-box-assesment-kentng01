@@ -1,4 +1,4 @@
-@import "_variables.scss";
+@import "./_variables.scss";
 
 html{
 
@@ -11,7 +11,7 @@ html{
 
 body{
 
-    background-color: $primary-color;
+    background-color: color(primary-color);
     color: #4E342E;
 
 }
